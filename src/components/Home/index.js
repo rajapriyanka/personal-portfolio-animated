@@ -7,7 +7,6 @@ import Logo from './Logo'
 import LogoTitle from '../../assets/images/logo-s.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import styles from './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -69,3 +68,4 @@ const Home = () => {
 }
 
 export default Home
+
